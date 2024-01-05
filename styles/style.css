@@ -199,7 +199,7 @@ main section {
 
 .resume-container {
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
 }
 
 .resume-column-title {
@@ -207,4 +207,24 @@ main section {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
+}
+
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.resume-item-institute,
+.resume-item-description {
+  color: #757575;
+}
+
+.resume-container hr {
+  margin: 30px;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 40px;
 }
