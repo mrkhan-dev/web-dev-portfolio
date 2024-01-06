@@ -262,6 +262,7 @@ textarea {
   background: #fff;
   border: 0;
   width: 100%;
+  outline: none;
 }
 
 .social-links a {
