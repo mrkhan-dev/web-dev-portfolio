@@ -248,7 +248,7 @@ footer {
   font-weight: 400;
   line-height: 28px;
   max-width: 562px;
-  text-align-: left;
+  text-align: left;
 }
 
 .contact input[type="text"],
@@ -274,4 +274,18 @@ textarea {
 
 .fa-solid {
   margin-right: 10px;
+}
+
+/* Responsive Media Query for Mobile Device */
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  #what-i-do-description {
+    padding: 0 30px;
+  }
+  .skill-container {
+    flex-direction: column;
+  }
 }
