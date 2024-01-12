@@ -277,17 +277,57 @@ textarea {
 }
 
 /* Responsive Media Query for Mobile Device */
-.hide {
-  display: none;
-}
 
 @media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
   #what-i-do-description {
     padding: 0 30px;
   }
+
+  .banner,
+  nav,
   .skill-container,
   footer,
   .resume-container {
+    flex-direction: column;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+  }
+
+  .btn-contact {
+    font-size: 18px;
+    padding: 8px 10px;
+    margin-left: 15px;
+  }
+
+  .banner {
+    padding: 0 0 0 20px;
+  }
+
+  .banner-title {
+    font-size: 60px;
+  }
+
+  .banner .profile-pic {
+    width: 100%;
+  }
+
+  .about {
+    padding: 10px;
+  }
+
+  .about-info-container {
     flex-direction: column;
   }
 
