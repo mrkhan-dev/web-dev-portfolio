@@ -285,7 +285,26 @@ textarea {
   #what-i-do-description {
     padding: 0 30px;
   }
-  .skill-container {
+  .skill-container,
+  footer {
     flex-direction: column;
+  }
+
+  footer {
+    padding: 0 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .section-description {
+    padding: 0;
+  }
+
+  .contact input[type="text"],
+  .contact input[type="email"],
+  textarea {
+    padding: 18px 5px;
   }
 }
