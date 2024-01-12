@@ -286,8 +286,13 @@ textarea {
     padding: 0 30px;
   }
   .skill-container,
-  footer {
+  footer,
+  .resume-container {
     flex-direction: column;
+  }
+
+  .resume-container {
+    padding: 0 10px;
   }
 
   footer {
