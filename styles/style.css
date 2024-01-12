@@ -307,4 +307,9 @@ textarea {
   textarea {
     padding: 18px 5px;
   }
+
+  .social-links {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
